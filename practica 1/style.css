@@ -1,0 +1,64 @@
+body{
+    background-color: #F7E987;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    display: block;
+    padding: auto;
+    margin: auto;
+  }
+
+a{
+    border-style:solid ;
+}
+a:hover{
+    color:#252B48;
+    background-color: #F7E987;
+    border: none;
+  
+  }
+.txNav{
+    color:#F7E987;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tx{
+    text-align:left;
+    font-weight:400;
+}
+.txTitulo{
+    color: #252B48;
+    font-weight: bold;
+    text-align: center;
+}
+.imgInicio{
+    width: 60%;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #252B48;
+}
+#visible{
+    color:#F7E987;
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    font-size: 14px;s
+}
+#visible:hover{
+    color: #252B48;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    font-size: 36px;
+}
+.segundario{
+    padding: 12px;
+    background-color: #252B48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tercero{
+    padding: 12px;
+    background-color: #EEE0C9;
+}
