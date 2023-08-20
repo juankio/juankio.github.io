@@ -1,0 +1,106 @@
+body{
+    /* background-color: #F7E987; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252B48;
+    padding: 10px 20px;
+}
+
+.nombre {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.nombre:hover {
+    cursor: default;
+    color: #F2BE22;
+    
+}
+.navbar-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #F2BE22;
+}
+.txNav{
+    color:#F7E987;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tx{
+    text-align:left;
+    font-weight:400;
+}
+.txTitulo{
+    color: #252B48;
+    font-weight: bold;
+    text-align: center;
+}
+.txSub{
+    color: #252B48;
+    font-weight: bold;
+    text-align: start;
+}
+.imgInicio{
+    width: 60%;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #252B48;
+}
+#visible{
+    color:white;
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    font-size: 14px;
+}
+#visible:hover{
+    color: #252B48;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0.1s;
+    font-size: 36px;
+}
+.segundario{
+    padding: 12px;
+    background-color: #252B48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tercero{
+    padding: 12px;
+    background-color: #EEE0C9;
+}
+.sucu{
+    background-color: #f2f2f2;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+} 
+.tabla-sucursales {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    
+}
+.columna {
+    flex: 1; 
+}
