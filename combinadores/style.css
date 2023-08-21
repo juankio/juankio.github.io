@@ -1,0 +1,20 @@
+.titulo{
+
+}
+.listas .lista{
+    text-decoration: underline;
+}
+.todo  .lista{
+    list-style: decimal;
+}
+.dias .lista{
+    list-style: none;
+}
+.listas > .lista{
+list-style: upper-roman;
+}
+.dias > .lista{
+    color: tomato;
+    font-weight: bold ;
+    font-size: 20px;
+}
